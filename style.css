@@ -1,0 +1,416 @@
+body {
+background-image: url("./background.webp");
+background-size: cover;
+font-size: 21px;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+margin: 0%;
+padding:0%;
+
+}
+
+
+
+form {
+    position: relative;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 10px outset white;
+    padding-bottom: 50px;
+    
+    text-align: center;
+}
+
+.answers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-size: cover;
+}
+
+.answers label {
+padding: 20px;
+margin: 20px;
+border: 1px solid black;
+border-radius: 25px;
+
+}
+
+
+
+.send-button {
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+border-radius: 10px;
+border: 1px solid black;
+padding: 0 40px;
+line-height: 1.6;
+background-color: silver;
+box-shadow: 4px 4px 0px silver;
+position: absolute;
+bottom: 5px;
+right: 20px;
+}
+
+
+.finished {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    font-size: 50px;
+    height: 500px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.a1 {
+
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  border: 2px solid silver;
+  margin: 8px;
+}
+
+
+.a1:hover {
+
+  background-color: lavender;
+
+}
+
+
+  .dropdown-content a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        
+      }
+      
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+
+      .h1-1{
+            
+          text-align: center;
+           padding-top: 12px;
+           margin: 0%;
+           color: black;
+       }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        
+        
+      }
+      
+      li {
+        float: left;
+        
+      }
+      
+      
+      
+      li a, .dropbtn {
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: large;
+        
+      } 
+
+      .p1 {
+        text-align: center;
+
+      }
+
+      h2 {
+        margin-top: 60px;
+        text-align: center;
+
+      }
+
+
+      hr {
+        
+        background-color: aqua;
+        
+
+      }
+
+      .hr2 {
+
+        background-color: rgb(247, 67, 67);
+        margin-top: 40px;
+      }
+  
+      
+     .link:hover {
+
+      background-color: aqua;
+
+     }
+      
+      .dropdown2:hover .dropdown-content {
+        display: block;
+      }
+
+
+      .link {
+        margin: 8px;
+        border: 2px outset darkcyan;
+        border-radius: 25px;
+        background-color: ivory;
+        width: 90px;
+      }
+
+
+      .link2 {
+        margin: 8px;
+        border: 2px outset darkred;
+        border-radius: 25px;
+        background-color: ivory;
+        width: 90px;
+      }
+
+      .link2:hover {
+        background-color: rgb(247, 67, 67) ;
+      }
+
+      .linkotaku{
+
+        margin-top: 10px;
+        border: 2px outset darkred;
+        border-radius: 25px;
+        background-color: ivory;
+        width:70px;
+      }
+
+      .linkotaku:hover {
+        background-color: rgb(247, 67, 67) ;
+      }
+    
+      .linkotaku2 {
+
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 2px outset darkcyan;
+        border-radius: 25px;
+        background-color: ivory;
+        width: 70px;
+      }
+
+      .linkotaku2:hover {
+
+        background-color: aqua;
+
+      }
+      
+
+      .nav2 {
+
+        border: 2px outset darkcyan;
+
+      }
+
+
+      .answerstext label {
+
+        padding: 20px;
+        margin: 20px;
+      
+      }
+
+      textarea {
+        resize: none;
+        font-size: 25px;
+        border-radius: 25px;
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 5px;
+        
+      }
+
+      .question {
+        width: 50%;
+        margin: auto;
+      }
+
+      .question2 {
+        width: 50%;
+        margin: auto;
+        font-size: 30px;
+        color: black;
+        
+      }
+
+      .answerstext {
+        width: 64%;
+        margin: auto;
+      
+      }
+
+
+    .questionmiljö {
+
+      font-size: 23px;
+      padding-left: 25px;
+      padding-top: 100px;
+    }
+
+
+
+    h3 {
+      padding-top: 50px;
+      font-size: 40px;
+      text-align: center;
+      color: gold;
+    }
+
+
+    .hr3 {
+      background-color: gold;
+      
+    }
+
+
+   .labelmiljö1 {
+    background-image: url("./bbb.png");
+    background-size: cover;
+    min-height: 150px;
+    text-align: left;
+   }
+
+   .labelmiljö2 {
+    background-image: url("./guiltycrownenvironment.jpg");
+    background-size: cover;
+    text-align: left;
+   }
+
+
+   .labelmiljö3 {
+    background-image: url("./rsz_hunterxhunterenv.png");
+    background-size: cover;
+    min-height: 150px;
+    text-align: left;
+   }
+
+   .labelmiljö4 {
+    background-image: url("./nanbakaenv.jpg");
+    background-size: cover;
+    text-align: left;
+   }
+
+
+
+   .link3 {
+    margin: 8px;
+    border: 2px outset gold;
+    border-radius: 25px;
+    background-color: ivory;
+    width: 90px;
+    
+  }
+
+
+  .link3:hover {
+    background-color: khaki;
+  }
+
+
+
+  .audio1 {
+  
+  text-align: center;
+  margin-top: 10px;
+  border: 2px outset lavender;
+  border-radius: 25px;  
+  width: 400px;
+  
+  } 
+
+
+  .link3 {
+
+    width: 230px;
+  }
+
+  .h1-2 {
+    text-align: center;
+    color: silver;
+    
+  }
+
+
+  .a2 {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 2px solid silver;
+    margin: 8px;
+
+  }
+
+  .a2:hover {
+    background-image: url("./nanbakaenv.jpg");
+    color: white;
+    border: 2px solid gold;
+  }
+
+
+
+  .finished2 {
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    height: 120px;
+    text-align: center;
+
+  }
+
+  .videodiv {
+    text-align: center;
+  }
+
+  .openingbody {
+    background-image: url("./background.webp");
+    background-size: cover;
+  }
+
+
+  .boss {
+    border: 5px solid darkblue;
+  }
+
+  .northern {
+    border: 5px solid darkslateblue;
+  }
+
+  .overgeared {
+    border: 5px solid darkred;
+  }
+
+  .suicide {
+    border: 5px solid goldenrod;
+  }
